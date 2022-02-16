@@ -1,0 +1,35 @@
+## AntennaSimResults
+
+
+***A notch was found at 25 MHz in the 100 MHz solution frequency result, here we seek to identify the reason by applying a different solution frequency, which in turn affects the mesh size of interior objects.
+***Difference to previous results: HFSS simulation of beam at 25 MHz was solved using a solution frequency of 50 MHz (not 100 MHz as was done previously). 
+
+## Discrete Simulation Results:
+Frequency 1 - 50 MHz, increments of 1 MHz;
+
+## Constant Parameters:
+Antenna Length 6 m; 
+Antenna Angle 30 deg;
+Antenna Radius 20 cm; 
+Distance of Antenna to center (offset) 25 cm;
+LuSEE Box 1x1x1 m^3;
+Lander Radius 1.5 m; 
+Lander Thickness 0.5 m; 
+Lander Height above Lunar Surface 2 m; 
+Lunar Surface Roughness 10 cm;
+
+## Further Sim Details: 
+Excitation Impedance 50 ohm;
+Far Field Radiation Boundary for all sides of simulation volume except -z; Lunar Soil simulated via an Impedance Layer.
+
+26-50 MHz
+Freq_low 25 MHz (sim box); Freq_high 50 MHz (mesh size of radiation boundary); Mesh Factor 10;
+Solution Frequency 100 MHz (mesh size of interior objects);
+
+10-25 MHz
+Freq_low 10 MHz (sim box); Freq_high 25 MHz (mesh size of radiation boundary); Mesh Factor 10;
+Solution Frequency 50 MHz (mesh size of interior objects);
+
+1-9 MHz
+Freq_low 1 MHz (sim box); Freq_high 10 MHz (mesh size of radiation boundary); Mesh Factor 10;
+Solution Frequency 20 MHz (mesh size of interior objects);
