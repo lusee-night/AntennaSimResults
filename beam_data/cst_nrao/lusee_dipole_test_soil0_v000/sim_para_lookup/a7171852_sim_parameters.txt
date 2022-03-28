@@ -1,0 +1,14 @@
+monitor_rbw=1
+Z_port=50
+delta_S=0.02
+nu_max_mhz=50
+nu_min_mhz=30
+frac_lambdo0=4
+AntennaRadius=1e-3
+AntennaPortDistance=80e-3
+dipole_height=lambda_center/4
+AntennaLength=1
+gndscreen_side=3*m2inch
+gndscreen_thickness=1/16
+lambda_center=(3e8/80e6)*m2inch
+m2inch=100/2.54
