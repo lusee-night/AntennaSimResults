@@ -1,0 +1,1 @@
+002_Freq1-50MHz_Delta1MHz_AntennaLength6m_AntennaAngle30deg_LanderHeight2m/*.fits filter=lfs diff=lfs merge=lfs -text
