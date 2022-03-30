@@ -1,0 +1,35 @@
+## AntennaSimResults - Short Dipole in Vacuum
+
+## Discrete Simulation Results:
+Frequency 1 - 50 MHz, increments of 1 MHz;
+
+
+## Constant Parameters:
+24-sided polygon as monopole;
+Monopole Length 1 m;
+Monopole Radius 5 mm; 
+Offset between monopoles 80 mm; 
+
+
+## Further Sim Details: 
+Excitation Impedance 50 ohm;
+Max mesh length on monopoles and excitation 5 mm;
+Max mesh length on simuation boundary c/freq_high/10 m;
+Perfectly Matched Layer as simulation boundary set for each frequency range below using HFSS default parameters;
+
+
+## Simulation Frequency ranges:
+1-3 MHz
+Freq_low 1 MHz; Freq_high 3 MHz; Solution Frequency 6 MHz;
+
+4-6 MHz
+Freq_low 3 MHz; Freq_high 6 MHz; Solution Frequency 12 MHz;
+
+7-12 MHz
+Freq_low 6 MHz; Freq_high 12 MHz; Solution Frequency 25 MHz;
+
+13-24 MHz
+Freq_low 12 MHz; Freq_high 25 MHz; Solution Frequency 50 MHz;
+
+25-50 MHz
+Freq_low 25 MHz; Freq_high 50 MHz; Solution Frequency 100 MHz;
