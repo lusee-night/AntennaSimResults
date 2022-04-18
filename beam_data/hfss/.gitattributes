@@ -1,1 +1,2 @@
 005_Freq1-50MHz_ShortDipole_24Poly_PML/*.fits filter=lfs diff=lfs merge=lfs -text
+007_Freq1-50MHz_1mLuSEE_12Poly_PML/*fits filter=lfs diff=lfs merge=lfs -text
